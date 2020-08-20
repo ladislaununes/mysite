@@ -14,7 +14,7 @@ a { color: #000; }
 /* SERVIÇOS */
 #servicos { padding: 40px 0; }
 #servicos div {  padding: 10px; }
-#servicos div div { background-color: #fff; }
+#servicos div div { background-color: #fff; border: 1px solid #e8f5e9; }
 #servicos div div:hover { background-color: #b9f6ca; }
 
 /* CONTACTO */
