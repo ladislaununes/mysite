@@ -1,43 +1,17 @@
-/* PADRÃO */
-body { font-family: "Century Gothic", sans-serif; font-size: 1.1em;}
-hr { width: 100px; border: 1px solid #000; margin-bottom: 10px; }
-section { padding: 25px 15px; }
-nav div ul li a { color: #fff; font-weight: 500; text-transform: uppercase; }
-h3 { font-size: 1.5em; font-weight: 600; }
-strong { font-weight: 600; }
-a { color: #000; }
+hr { width: 90px; border: 1px solid #111; }
+nav { background: rgba(0, 0, 0, 0.6); }
 
-/* HERO */
-#hero { background: url(../img/bg.jpg) center center; width: 100%; min-height: 90vh; }
-#sobre strong { font-size: 3em; font-weight: 100; }
-
-/* SERVIÇOS */
-#servicos { padding: 40px 0; }
-#servicos div {  padding: 10px; }
-#servicos div div { background-color: #fff; border: 1px solid #e8f5e9; }
-#servicos div div:hover { background-color: #b9f6ca; }
-
-/* CONTACTO */
-#contacto { background: url(../img/newsletter.png); background-size: cover; }
-#contacto form { border: 1px solid #fff; padding: 10px; }
-
-/* REDES SOCIAIS */
-#redes-sociais a { font-size: 1.1em; }
-
-/* RODAPÉ */
-footer { padding: 20px; }
-/*
-#as { font-size: 4em; font-family: "Times New Roman", sans-serif; }
-*/
-
-/* BREAK POINTS */
-@media only screen and (max-width: 800px) {
-  h2 { font-size: 2.4em; }
-  #hero { min-height: 80vh; }
+#capa {
+    background: url(../img/bg-1.png) fixed center, url(../img/bg-2.png) fixed center, radial-gradient(#ff4169, #7c26f8);
+    background-size: cover;
+    min-height: 96vh;
 }
 
-@media only screen and (max-width: 600px) {
-  h2 { font-size: 2.5em; }
-  #hero { min-height: 70vh; }
-  h3 { font-size: 1.3em; }
-}
+#servicos { background-color: #e8f5e9; }
+#servicos .card:hover { background-color: #7c26f8; }
+#contactos { background: url(../img/newsletter.png); background-size: cover; }
+form { border: 1px solid #fff; }
+#nome, #email, #telefone, #mensagem { background: rgba(0, 0, 0, 0.1); color: rgba(255, 255, 255, 0.8); }
+.card-img-top { width: 53px; margin-left: auto; margin-right: auto; }
+
+#redes-sociais div { display: flex; flex-flow: row wrap;  justify-content: space-around; align-content: center; }
