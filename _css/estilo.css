@@ -1,0 +1,82 @@
+/* PADRÃO */
+@font-face {
+    font-family: 'principal';
+    src: url("../_fonts/Team\ 401.ttf");
+}
+
+@font-face {
+    font-family: 'secundario';
+    src: url("../_fonts/BOMBARD.otf");
+}
+h1 { font-family: 'principal'; }
+h2 { font-family: 'secundario'; }
+hr {
+    width: 90px; 
+    border: 1px solid #111; 
+}
+
+main { width: 72%; 
+    margin: 0 auto;
+    background: #f5f5f5; 
+    box-shadow: 0 0 10px #000; 
+}
+@media screen and (max-width: 1100px) {
+    main { width: 80%; }
+}
+@media screen and (max-width: 1000px) {
+    main { width: 100%; }
+}
+
+.sombra { 
+    box-shadow: 0 0 4px #000; 
+}
+
+ /* CAPA */
+#capa { 
+    background: radial-gradient(#f65, #b15); 
+    background-size: cover; 
+    min-height: 55vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+@media screen and (max-width: 700px) {
+    #capa { min-height: 45vh; }
+}
+@media screen and (max-width: 500px) {
+    #capa { min-height: 35vh; }
+}
+
+/* SERVIÇOS */
+#servicos { 
+    background-color: #e8f5e9; 
+}
+
+/* CONTACTOS */
+#contactos { 
+    background: url(../_img/newsletter.png); 
+    background-size: cover; 
+}
+
+form { 
+    border: 1px solid #fff; 
+}
+
+#nome, #email, #telefone, #mensagem { 
+    background: rgba(0, 0, 0, 0.1); 
+    color: rgba(255, 255, 255, 0.8); 
+}
+
+.card-img-top { 
+    width: 53px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#redes-sociais div { 
+    display: flex; 
+    flex-flow: row wrap;  
+    justify-content: space-around; 
+    align-content: center; 
+}
