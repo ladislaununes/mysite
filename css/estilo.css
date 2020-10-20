@@ -1,11 +1,11 @@
 /* PADRÃO */
 @font-face {
     font-family: 'principal';
-    src: url("../_fonts/Team\ 401.ttf"); }
+    src: url("../fonts/Team\ 401.ttf"); }
 
 @font-face {
     font-family: 'secundario';
-    src: url("../_fonts/BOMBARD.otf"); }
+    src: url("../fonts/BOMBARD.otf"); }
 
 /*nav { background-color: #06aee5; }*/
 .navbar-light .navbar-nav .nav-link { color: #000; }
@@ -49,7 +49,7 @@ main {
 #servicos { background-color: #e4f5e5; }
 
 /* CONTACTOS */
-#contactos { background: url(../_img/newsletter.png); background-size: cover; }
+#contactos { background: url(../img/newsletter.png); background-size: cover; }
 
 form { border: 1px solid #fff; }
 
