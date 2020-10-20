@@ -7,12 +7,13 @@
     font-family: 'secundario';
     src: url("../_fonts/BOMBARD.otf"); }
 
+/*nav { background-color: #06aee5; }*/
 .navbar-light .navbar-nav .nav-link { color: #000; }
 h1 { font-family: 'principal'; }
-h2 { font-family: 'secundario'; }
-hr { width: 70px; border: 1px solid #111; }
+h2 { font-family: 'secundario'; color: #06aee5; }
+hr { width: 60px; border: 1px solid #333; margin-top: 0; }
 
-body { background-color: #dad2d2; margin-top: 60px; }
+body { background-color: #e4f5e5; margin-top: 60px; }
 main { 
     width: 72%; 
     margin: 0 auto;
@@ -29,8 +30,8 @@ main {
 .sombra { box-shadow: 0 0 4px #000; }
 
  /* CAPA */
-#capa { 
-    background: radial-gradient(#06aee5, #02e8a6); 
+#capa, nav { background: radial-gradient(#02e8a6, #06aee5); }
+#capa {  
     background-size: cover; 
     min-height: 55vh; 
     display: flex;
@@ -45,7 +46,7 @@ main {
 }
 
 /* SERVIÇOS */
-#servicos { background-color: #e8f5e9; }
+#servicos { background-color: #e4f5e5; }
 
 /* CONTACTOS */
 #contactos { background: url(../_img/newsletter.png); background-size: cover; }
