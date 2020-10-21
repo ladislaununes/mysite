@@ -9,13 +9,14 @@
 
 /*nav { background-color: #06aee5; }*/
 .navbar-light .navbar-nav .nav-link { color: #000; }
+.navbar-light .navbar-nav .active { border-bottom: 3px solid #06aee5;}
 h1 { font-family: 'principal'; }
 h2 { font-family: 'secundario'; color: #06aee5; }
 hr { width: 60px; border: 1px solid #333; margin-top: 0; }
-
+nav { background-color: #fff; }
 body { background-color: #e4f5e5; margin-top: 60px; }
 main { 
-    width: 72%; 
+    width: 76%; 
     margin: 0 auto;
     background: #f5f5f5; 
     box-shadow: 0 0 10px #000; }
@@ -27,10 +28,10 @@ main {
     main { width: 100%; }
 }
 
-.sombra { box-shadow: 0 0 4px #000; }
+.sombra { box-shadow: 0 0 4px #02e8a6; }
 
  /* CAPA */
-#capa, nav { background: radial-gradient(#02e8a6, #06aee5); }
+#capa { background: radial-gradient(#02e8a6, #06aee5); }
 #capa {  
     background-size: cover; 
     min-height: 55vh; 
