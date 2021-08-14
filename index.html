@@ -1,161 +1,215 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ladislau Nunes | Blog e Potfólio pessoal</title>
+    <meta name="description" content="Blog e portfólio pessoal">
+    <meta name="keywords" content="Ladislau, Blog, Programador, Desenvolvedor web">
+    <meta name="robots" content="index">
+    <meta name="author" content="Ladislau Nunes">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="shortcut icon" href="img/logo-pequeno.png" type="image/x-icon">
-    <title>Ladislau Nunes</title>
+    <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
-      <main>
-            <nav class="navbar navbar-expand-md fixed-top navbar-light sombra">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/logo-pequeno.png" width="50px" alt="Logotipo LN">
-                </a>
+    <!-- Botão para volta ao Topo -->
+    <a href="#" id="voltar_topo"><img src="img/topo.png" width="30px"></a>
+    <main>
+        <!-- MENU -->
+        <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+            <a class="navbar-brand wow bounceInLeft" href="index.html">
+                <img src="img/logo.png" alt="Logotipo LN">
+            </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"> <a class="nav-link" href="#">Início</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#sobre">Sobre</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#servicos">Serviços</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#portfolio">Portfólio</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#contactos">Contactos</a> </li>
-                    </ul>
-                </div>
-            </nav>
-
-            <!-- Capa -->
-            <div class="p-5" id="capa">
-                <h1>Ladislau Nunes</h1>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#sobre">Sobre</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#servicos">Serviços</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#portfolio">Portfólio</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#blog">Blog</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#contactos">Contacto</a> </li>
+                </ul>
             </div>
+        </nav>
 
-            <!-- Sobre -->
-            <section class="p-4" id="sobre">
-                <div class="row">
-                    <div class="col-sm-7">
-                        <h2>Sobre mim</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident, a et consequuntur, veniam voluptates nam libero cupiditate quibusdam, blanditiis dolorem molestiae fugit modi repellendus reprehenderit laborum. Harum, sit quisquam.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, distinctio nulla nihil dignissimos ipsa corporis natus vel ducimus quibusdam doloribus voluptatibus numquam dolore expedita fugiat, est obcaecati officia asperiores quaerat.</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <img src="img/minha-foto.png" alt="Minha foto" class="img-fluid rounded">
-                    </div>
-                </div>
-            </section>
+        <!-- CAPA -->
+        <div class="text-white wow fadeInDownBig" data-wow-delay="0.5s" id="capa">
+            <span class="p-3 mb-3">Ladislau Nunes</span>
+            <p>BLOG & PORTFÓLIO PESSOAL</p>
+        </div>
+        <div class="p-3 gradiente">
+            
+        </div>
 
-            <!-- Serviços -->
-            <aside class="p-4 text-center" id="servicos">
-                <h2>Serviços</h2>
-                <hr>
-                <div class="row mt-4 px-4 card-group">
-                    <div class="card text-center">
-                        <img src="img/icone-1.png" class="card-img-top mt-2">
-                        <div class="card-body">
-                            <h3 class="card-title h5 text-center">Desenvolvedor Web</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem deserunt debitis voluptate fugit veniam officia placeat, veritatis necessitatibus laboriosam harum animi voluptatibus exercitationem nisi quisquam quo, esse eum porro.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/icone-2.png" class="card-img-top mt-2">
-                        <div class="card-body">
-                            <h3 class="card-title h5 text-center">Desenvolvedor Desktop</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo cupiditate sint voluptatibus vitae incidunt soluta magni repellendus illum sunt saepe itaque, eligendi culpa illo dolore maxime minima dolores quis!</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/icone-3.png" class="card-img-top mt-2">
-                        <div class="card-body">
-                            <h3 class="card-title h5 text-center">Suporte Técnico</h3>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sit possimus, obcaecati ratione, minus ipsa eaque nisi itaque modi tempore non impedit expedita. Expedita quo error velit minus eum nisi.</p>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-
-            <!-- Potfolio -->
-            <div class="p-4 text-center" id="portfolio">
-                <h2>Portfólio</h2>
-                <hr>
-                <div class="row mt-4 px-2 px-sm-3 px-md-4 px-lg-5">
-                    <div class="col-sm-4 p-1">
-                        <img src="img/galeria-1.jpg" alt="Foto de serviço 1" class="img-fluid rounded sombra">
-                    </div>
-                    <div class="col-sm-4 p-1">
-                        <img src="img/galeria-2.jpg" alt="Foto de serviço 2" class="img-fluid rounded sombra">
-                    </div>
-                    <div class="col-sm-4 p-1">
-                        <img src="img/galeria-3.jpg" alt="Foto de serviço 3" class="img-fluid rounded sombra">
-                    </div>
-                </div>
-                <div class="row pt-2 px-2 px-sm-3 px-md-4 px-lg-5">
-                    <div class="col-sm-4 p-1">
-                        <img src="img/galeria-4.jpg" alt="Foto de serviço 4" class="img-fluid rounded sombra">
-                    </div>
-                    <div class="col-sm-4 p-1">
-                        <img src="img/galeria-5.jpg" alt="Foto de serviço 5" class="img-fluid rounded sombra">
-                    </div>
-                    <div class="col-sm-4 p-1">
-                        <img src="img/galeria-6.jpg" alt="Foto de serviço 6" class="img-fluid rounded sombra">
-                    </div>
-                </div>
+        <!-- SOBRE MIM -->
+        <section class="p-4" id="sobre">
+            <div class="row d-flex justify-content-around p-3">
+                <img src="img/icone-coffee.jpg" class="rounded-circle border wow flipInX" data-wow-delay="0.5s">
+                <img src="img/icone-code.jpg" class="rounded-circle border wow flipInX" data-wow-delay="1s">
+                <img src="img/icone-modelo.jpg" class="rounded-circle wow flipInY" data-wow-delay="2.5s">
+                <img src="img/icone-ideia.jpg" class="rounded-circle border wow flipInX" data-wow-delay="1.5s">
+                <img src="img/icone-pencil.jpg" class="rounded-circle border wow flipInX" data-wow-delay="2s">
             </div>
-
-            <!-- Contactos -->
-            <div class="p-4" id="contactos">
-                <h2 class="text-white text-center">Entre em contacto</h2>
-                <hr style="border-color: #fff;">
-                <p class="text-white text-center">Envie a sua mensagem preenchendo os campos abaixo</p>
+            <div class="row text-center">
                 <div class="container">
-                    <form action="" class="row formgroup mt-2 p-3">
-                        <div class="col-sm-6">
-                            <label for="nome" class="text-white">Titular</label>
-                            <input class="form-control" id="nome" type="text" placeholder="Nome completo ou empresa">
-                            <label for="email" class="text-white">Endereço de email</label>
-                            <input class="form-control" id="email" type="email" name="email" id="" placeholder="E-mail">
-                            <label for="telefone" class="text-white">Telefone</label>
-                            <input class="form-control" id="telefone" type="text" placeholder="Número de telefone">
-                        </div>
-                        <div class="col-sm-6">
-                            <label for="mensagem" class="text-white">Mensagem</label>
-                            <textarea name="" class="form-control" id="mensagem" rows="7" placeholder="Escreva a sua mensagem aqui!"></textarea>
-                            <input type="submit" value="Enviar" class="btn btn-lg btn-outline-light mt-1">
-                        </div>
-                    </form>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident, a et consequuntur, veniam voluptates nam libero cupiditate quibusdam, blanditiis dolorem molestiae fugit modi repellendus reprehenderit laborum. Harum, sit quisquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, distinctio nulla nihil dignissimos ipsa corporis natus vel ducimus quibusdam doloribus voluptatibus numquam dolore expedita fugiat, est obcaecati officia asperiores quaerat.</p>
+                    <p><strong>Siga-me nas redes sociais:</strong></p>
+                    <a href="#"><img src="img/rs-facebook.png" class="rounded-circle" alt=""></a>
+                    <a href="https://github.com/ladislaununes" target="_blank"><img src="img/rs-github.png" alt=""></a>
+                    <a href="#"><img src="img/rs-linkedin.png" class="rounded-circle" alt=""></a>
+                    <a href="#"><img src="img/rs-instagram.png" class="rounded-circle" alt=""></a>
                 </div>
             </div>
+        </section>
 
-            <!-- Redes sociais -->
-            <div class="p-4 text-center" id="redes-sociais">
-                <div class="container">
-                    <div class="p-1">
-                        <p><img src="img/facebook.png" alt="" class="rounded-circle"> ladislaununes.lau</p>
+        <!-- SERVIÇOS -->
+        <aside class="p-4 text-center" id="servicos">
+            <h1>Meus Serviços</h1>
+            <hr>
+            <div class="row mt-4 px-4 card-group">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card wow bounceInLeft" data-wow-offset="300">
+                    	<aside id="serv1"></aside>
+                        <h2>Desenvolvedor Web</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem deserunt debitis voluptate fugit veniam officia placeat, veritatis necessitatibus laboriosam harum animi voluptatibus exercitationem nisi quisquam quo.</p>
                     </div>
-                    <div class="p-1">
-                        <p><img src="img/github.png" alt="" class=""> ladislaununes.lau</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card wow fadeInDown">
+                        <aside id="serv2"></aside>
+                        <h2>Desenvolvedor Desktop</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo cupiditate sint voluptatibus vitae incidunt soluta magni repellendus illum sunt saepe itaque, eligendi culpa illo dolore maxime minima dolores quis!</p>
                     </div>
-                    <div class="p-1">
-                        <p><img src="img/linkedin.png" alt="" class="rounded-circle"> ladislaununes.lau</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card wow slideInRight" data-wow-delay="1s">
+                        <aside id="serv3"></aside>
+                        <h2>Suporte Técnico</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sit possimus, obcaecati ratione, minus ipsa eaque nisi itaque modi tempore non impedit expedita. Expedita quo error velit minus eum nisi.</p>
                     </div>
-                    <div class="p-1">
-                        <p><img src="img/instagram.png" alt="" class="rounded-circle"> ladislaununes.lau</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card wow bounceInLeft" data-wow-offset="300">
+                        <aside id="serv4"></aside>
+                        <h2>Design Responsivo</h2>
+                        <p>A utilização do Bootstrap torna o teu site adaptável para diferentes tamanhos de tela.</p>
                     </div>
-                </div>    
+                </div>
             </div>
-            <!-- Rodapé -->
-            <footer class="pt-4 pb-3 text-center">
-                <p class="text-black">Copyright &copy; 2020<br>Todos os direitos reservados</p>
-            </footer>
-        </main>
-    <!-- JavaScript (Opcional) -->
+        </aside>
+
+        <!-- PORTFÓLIO -->
+        <div class="p-4 text-center" id="portfolio">
+            <h1>Portfólio</h1>
+            <hr>
+            <div class="row p-4">
+                <div class="col-md-4">
+                 	<figure class="figure">
+						<img src="img/projecto-3.jpg" class="figure-img img-fluid wow pulse" alt="Foto de serviço 3" data-wow-delay="1.5s">
+					  	<figcaption class="figure-caption">Site de um Restaurante feito com Bootstrap</figcaption>
+					</figure>
+                </div>
+                <div class="col-md-4">
+                	<figure class="figure">
+                    	<img src="img/projecto-1.jpg" class="figure-img img-fluid wow pulse" alt="Foto de serviço 1" data-wow-delay="0.5s">
+                    	<figcaption class="figure-caption">Site de um Restaurante feito com Bootstrap</figcaption>
+                    </figure>
+                    <figure class="figure">
+                    	<img src="img/projecto-2.jpg" class="figure-img img-fluid wow pulse" alt="Foto de serviço 2" data-wow-delay="1s"> 
+                    	<figcaption class="figure-caption">Site de um Restaurante feito com Bootstrap</figcaption> 
+                    </figure>
+                    <figure class="figure">
+                        <img src="img/projecto-4.jpg" class="figure-img img-fluid wow pulse" alt="Foto de serviço 1" data-wow-delay="0.5s">
+                        <figcaption class="figure-caption">Site de um Restaurante feito com Bootstrap</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/projecto-3.jpg" alt="Foto de serviço 3" class="img-fluid wow pulse" data-wow-delay="1.5s">
+                </div>
+            </div>
+        </div>
+
+        <!-- REDES SOCIAIS -->
+        <div class="p-4 text-center" id="blog">
+            <h1>Blog</h1>
+            <hr>
+            <div class="row text-left">
+                <div class="col-md-8">
+                    <!-- Notícia 1 -->
+                    <img src="img/capa-noticia-1.jpg" class="img-fluid">
+                    <h2>Título da Notícia</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sit possimus, obcaecati ratione, minus ipsa eaque nisi itaque modi tempore non impedit expedita. Expedita quo error velit minus eum nisi.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sit possimus, obcaecati ratione, minus ipsa eaque nisi itaque modi tempore non impedit expedita. Expedita quo error velit minus eum nisi.</p>
+                    <!-- Notícia 2 -->
+                    <img src="img/capa-noticia-2.jpg" class="img-fluid">
+                    <h2>Título da Notícia</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sit possimus, obcaecati ratione, minus ipsa eaque nisi itaque modi tempore non impedit expedita. Expedita quo error velit minus eum nisi.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sit possimus, obcaecati ratione, minus ipsa eaque nisi itaque modi tempore non impedit expedita. Expedita quo error velit minus eum nisi.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Título Widget</h2>
+                    <img src="img/foto-1.jpg" class="img-fluid">
+                    <h2>Título Widget</h2>
+                    <img src="img/foto-1.jpg" class="img-fluid">
+                    <h2>Título Widget</h2>
+                    <img src="img/foto-1.jpg" class="img-fluid">
+                </div>
+            </div>    
+        </div>
+
+        <!-- CONTACTO -->
+        <div class="p-4" id="contactos">
+            <h1>Entre em contacto</h1>
+            <hr style="border-color: #fff;">
+            <p class="text-center">Envie a sua mensagem preenchendo os campos abaixo</p>
+            <div class="container">
+                <form action="" class="row formgroup mt-2 p-3">
+                    <div class="col-sm-6">
+                        <label for="nome">Titular</label>
+                        <input class="form-control mb-1" id="nome" type="text" placeholder="Nome completo ou empresa">
+                        <label for="email">Endereço de email</label>
+                        <input class="form-control mb-1" id="email" type="email" name="email" placeholder="E-mail">
+                        <label for="telefone">Telefone</label>
+                        <input class="form-control" id="telefone" type="text" placeholder="Número de telefone">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="" class="form-control" id="mensagem" rows="7" placeholder="Escreva a sua mensagem aqui!"></textarea>
+                        <input type="submit" value="Enviar mensagem" class="btn btn-lg btn-outline-light mt-2">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- RODAPÉ -->
+        <footer>
+            <p>Copyright &copy; 2020<br>Designed by: Ladislau Nunes</p>
+        </footer>
+    </main>
+    
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>   
+    <script>
+        wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset:       100,
+            callback:     function(box) {
+              console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        });
+        wow.init();
+  </script>
   </body>
 </html>
