@@ -5,6 +5,7 @@
 }
 
 * { font-family: 'normal'; }
+
 .navbar-light .navbar-nav .nav-link { 
     color: #000;
 }
@@ -13,9 +14,7 @@
     transition: all 0.4s linear; 
 }
 
-p {
-    color: #333;
-}
+p { color: #333; }
 
 h1 { 
     font-size: 16pt;
@@ -24,10 +23,7 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    font-size: 13pt;
-    font-weight: bold;
-}
+h2 { font-size: 13pt; font-weight: bold; }
 
 hr { 
     width: 60px;
@@ -35,19 +31,12 @@ hr {
     margin-top: 0; 
 }
 
-body { 
-    background-color: #0030222f;
-}
+body { background-color: #0030222f; }
 
-main { 
-    width: 100%;
-    background: #f5f5f5;
-}
+main { width: 100%; background: #f5f5f5; }
 
  /******** CAPA ********/
-.gradiente { 
-    background: linear-gradient(90deg, #02e8a6, #06aee5);
-}
+.gradiente { background: linear-gradient(90deg, #02e8a6, #06aee5); }
 
 #capa {  
     background: url(../img/capa.jpg) center center;
@@ -65,19 +54,13 @@ main {
     border: 2px solid #fff;
 }
 
-#capa p {
-    color: #fff;
-}
+#capa p { color: #fff; }
 
 /******** SOBRE ********/
-#sobre img.border {
-    display: none;
-}
+#sobre img.border { display: none; }
 
 /******** SERVIÇOS ********/
-#servicos { 
-    background-color: #e4f5e5; 
-}
+#servicos { background-color: #e4f5e5; }
 
 .card {
     border-radius: 0;
@@ -126,21 +109,6 @@ main {
     border: 1px solid #ccc;
     padding: 4px;
     margin-bottom: 5px;
-}
-
-/******** BLOG ********/
-#blog {
-    background-color: #e4f5e5;
-}
-
-#blog img, .card {
-    margin-bottom: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-#blog p {
-    text-align: justify;
 }
 
 @media screen and (min-width: 600px) {
