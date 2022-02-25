@@ -1,0 +1,110 @@
+/* PADRÃO */
+@font-face {
+    font-family: 'regular';
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+span#destaque-1 {
+    font-weight: lighter;
+    color: rgb(182, 182, 182);
+    font-size: 1.2em;
+}
+
+* { 
+    font-family: 'Ubuntu'; 
+}
+
+hr {
+    width: 100px;
+    margin: 5px auto;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+p {
+    font-weight: lighter;
+}
+
+nav {
+    box-shadow: 1px 1px 1px #0c061491;
+}
+
+#capa {  
+    color: #000;
+    background: url(../img/capa.jpg) center center;
+    background-size: auto;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#icones {
+    display: flex;
+    justify-content: space-around;
+}
+
+div#descricao {
+    padding: 10px;
+    color: #fff;
+}
+
+div ul li a.active { border-bottom: 2px solid #21103a; font-weight: bold; }
+div ul li a:hover { border-bottom: 2px solid #21103a; transition: all 0.2s linear; }
+
+#habilidades {
+    background-color: #f3efe0;
+}
+
+#habilidades ul li {
+    list-style: none;
+}
+
+#servicos div p {
+    text-align: left;
+}
+
+#contactos {
+    background-image: linear-gradient(90deg, #0c0614, #21103a);
+    color: #fff;
+}
+
+/* Botoes */
+.btn-principal {
+    width: 200px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 18px;
+}
+
+.btn-principal:hover {
+    background-color: #21103a;
+    color: #fff;
+    border-color: #21103a;
+}
+
+/* Footer*/
+footer { 
+    background-color: #1d1d1d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+@media screen and (min-width: 500px) {
+
+}
+
+@media screen and (min-width: 900px) {
+
+}
+
+@media screen and (min-width: 1100px) {
+    
+}
+
+@media screen and (max-width: 766px) {
+    #icone-1,  #icone-2,  #icone-3,  #icone-4 { display: none; }
+}

@@ -1,0 +1,59 @@
+
+* { 
+    font-family: 'Ubuntu'; 
+}
+
+
+h2, h3 {
+    font-weight: normal;
+}
+
+p {
+    font-weight: lighter;
+}
+
+nav {
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+#capa {  
+    color: #000;
+    background: url(../img/capa-projectos.png) center center;
+    background-size: auto;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+div#descricao {
+    padding: 10px;
+    color: #fff;
+}
+
+div ul li a.active { border-bottom: 2px solid #21103a; font-weight: bold; }
+div ul li a:hover { border-bottom: 2px solid #21103a; transition: all 0.2s linear; }
+
+section {
+    color: #fff;
+}
+
+#projecto-2 {
+    background-color: rgb(21, 5, 56);
+}
+
+#projecto-3 {
+    background-color: rgb(255, 211, 92);
+}
+
+/* Botoes */
+.btn {
+    border-radius: 18px; 
+}
+
+/* Footer*/
+footer { 
+    background-color: #1d1d1d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
