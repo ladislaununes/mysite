@@ -30,7 +30,7 @@ div#descricao {
     color: #fff;
 }
 
-div ul li a.active { border-bottom: 2px solid #21103a; font-weight: bold; }
+div ul li a.active { border-bottom: 2px solid #21103a; font-weight: 500; }
 div ul li a:hover { border-bottom: 2px solid #21103a; transition: all 0.2s linear; }
 
 section {
@@ -52,7 +52,7 @@ section {
 
 /* Footer*/
 footer { 
-    background-color: #1d1d1d;
+    background-color: #08040e;
     color: #fff;
     text-align: center;
     padding: 20px 0px 10px 0px;
