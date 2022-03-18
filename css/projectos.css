@@ -1,15 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
 * { 
-    font-family: 'Ubuntu'; 
+    font-family: 'Ubuntu', sans-serif; 
 }
-
 
 h2, h3 {
     font-weight: normal;
 }
 
 p {
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 nav {
