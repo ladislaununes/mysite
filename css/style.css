@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+:root {
+    --cor0: #c970a17e;
+    --cor1: #663399;
+    --cor2: #ae407d;
+    --cor3: #f99003;
+    --font1: 'Ubuntu';
+    --font2: ;
+}
+
 /* PADRÃO 
 @font-face {
     font-family: 'regular';
@@ -6,26 +14,13 @@
 }*/
 
 * {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--font1), sans-serif;
 }
 
 span#destaque-1 {
     font-weight: 300;
     color: rgb(182, 182, 182);
     font-size: 1.2em;
-}
-
-hr {
-    width: 100px;
-    margin: 5px auto;
-}
-
-h2, h3 {
-    font-weight: normal;
-}
-
-p {
-    font-weight: 300;
 }
 
 nav {
@@ -41,6 +36,10 @@ nav {
     align-items: center;
 }
 
+#icones img {
+    width: 90px;
+}
+
 #icones, #redes-sociais {
     display: flex;
     justify-content: space-around;
@@ -54,18 +53,24 @@ div#descricao {
 div ul li a.active { border-bottom: 2px solid #21103a; font-weight: 500; color: #21103a; }
 div ul li a:hover { border-bottom: 2px solid #21103a; transition: all 0.2s linear; }
 
-#habilidades {
-    background-color: #f3efe0;
+/* Serviços 
+#servicos {
+    background-color: var(--cor0);
+}*/
+
+#servicos div div div {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #c3c3c3;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-#habilidades ul li {
-    list-style: none;
-}
+.servico1 { background: url('../img/n1.png') top left no-repeat; }
+.servico2 { background: url('../img/n2.png') top left no-repeat; }
+.servico3 { background: url('../img/n3.png') top left no-repeat; }
+.servico4 { background: url('../img/n4.png') top left no-repeat; }
 
-#servicos div p {
-    text-align: left;
-}
-
+/* Footer */
 footer, #contactos {
     background-color: #08040e;
     color: #fff;
@@ -114,6 +119,7 @@ footer {
     
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 768px) {
     #icone-1,  #icone-2,  #icone-3,  #icone-4 { display: none; }
+    #servicos div div div { margin-bottom: 10px; }
 }
