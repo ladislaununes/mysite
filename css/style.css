@@ -3,33 +3,24 @@
     --cor1: #663399;
     --cor2: #ae407d;
     --cor3: #f99003;
-    --font1: 'Ubuntu';
-    --font2: ;
+    --font1: 'Segoe UI', 'Calibri', serif;
+    --font2: 'Montserrat';
 }
 
-/* PADRÃO 
-@font-face {
-    font-family: 'regular';
-    src: url("../fonts/Montserrat-Regular.ttf");
-}*/
+* { font-family: var(--font1), sans-serif; }
+body { margin-top: 66px; }
+h2 { text-transform: uppercase; font-family: var(--font2); font-weight: 600; }
+h3 { font-family: var(--font2); font-weight: 500; }
+nav { box-shadow: 1px 1px 2px #c3c3c3; }
 
-* {
-    font-family: var(--font1), sans-serif;
-}
+/* Menu */
+div ul li a.active { border-bottom: 2px solid #21103a; font-weight: 500; color: #21103a; }
+div ul li a:hover { border-bottom: 2px solid #21103a; transition: all 0.2s linear; }
 
-span#destaque-1 {
-    font-weight: 300;
-    color: rgb(182, 182, 182);
-    font-size: 1.2em;
-}
-
-nav {
-    box-shadow: 1px 1px 1px #c3c3c3;
-}
-
+/* Capa */
 #capa {  
-    color: #000;
-    background: url("../img/capa.jpg") center center;
+    color: #fff;
+    background: linear-gradient(to right, var(--cor1), var(--cor2));
     background-size: auto;
     min-height: 50vh;
     display: flex;
@@ -40,24 +31,15 @@ nav {
     width: 90px;
 }
 
+#redes-sociais { width: 70%; margin: auto; }
+#redes-sociais img { width: 48px; }
+
 #icones, #redes-sociais {
     display: flex;
     justify-content: space-around;
 }
 
-div#descricao {
-    padding: 10px;
-    color: #fff;
-}
-
-div ul li a.active { border-bottom: 2px solid #21103a; font-weight: 500; color: #21103a; }
-div ul li a:hover { border-bottom: 2px solid #21103a; transition: all 0.2s linear; }
-
-/* Serviços 
-#servicos {
-    background-color: var(--cor0);
-}*/
-
+/* Serviços */
 #servicos div div div {
     background-color: #fff;
     box-shadow: 0px 0px 4px #c3c3c3;
@@ -69,21 +51,13 @@ div ul li a:hover { border-bottom: 2px solid #21103a; transition: all 0.2s linea
 .servico2 { background: url('../img/n2.png') top left no-repeat; }
 .servico3 { background: url('../img/n3.png') top left no-repeat; }
 .servico4 { background: url('../img/n4.png') top left no-repeat; }
+.servico5 { background: url('../img/n5.png') top left no-repeat; }
+.servico6 { background: url('../img/n6.png') top left no-repeat; }
 
 /* Footer */
-footer, #contactos {
+footer {
     background-color: #08040e;
     color: #fff;
-}
-
-#redes-sociais a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#redes-sociais a:hover {
-    color: #25d5fe;
-    transition: all 0.2s linear;
 }
 
 /* Botoes */
@@ -101,22 +75,17 @@ footer, #contactos {
     border-color: #21103a;
 }
 
-/* Footer*/
-footer {
-    text-align: center;
-    padding: 10px 0px;
-}
 
 @media screen and (min-width: 500px) {
 
 }
 
 @media screen and (min-width: 900px) {
-
+    #redes-sociais { width: 60%; }
 }
 
 @media screen and (min-width: 1100px) {
-    
+    #redes-sociais { width: 40%; }
 }
 
 @media screen and (max-width: 768px) {
