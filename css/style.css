@@ -2,35 +2,42 @@
 
 :root {
     --cor0: #06939c;
-    --cor1: #574ea1;
-    --cor2: #0b90c0;
-    --cor3: #f99003;
-    --cor4: #ae407d;
+    --cor1: #0b90c0;
+    --cor2: #f99003;
     --font1: 'Geologica', sans-serif;
-    --font2: 'Montserrat';
 }
 
 * { font-family: var(--font1), sans-serif; }
 p { text-align: justify; font-weight: 200; }
+hr { width: 80px !important; margin: auto; margin-bottom: 10px;}
 
 /* NavBar */
 nav {
-    background-image: linear-gradient(to right, var(--cor0), var(--cor2));
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Capa */
 #capa {
-    height: 36vh;
+    height: 42vh;
     background: url(../img/banner.png) center center, #000;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 #capa h1 { font-weight: 200; }
-#capa span { color: var(--cor3); font-weight: 600; }
+#capa span { color: var(--cor2); font-weight: 600; }
 
 /* Sobre mim */
-#redes-sociais div { display: flex; justify-content: space-around; }
+#redes-sociais { width: 70%; margin: auto; display: flex; justify-content: space-around; }
 #redes-sociais i { font-size: 34px; color: var(--cor0); }
-#redes-sociais i:hover { transition: color ease-out 1s; color: var(--cor3); }
+#redes-sociais i:hover { transition: color ease-out 1s; color: var(--cor2); }
+
+/* Serviços */
+#servicos div div { background-color: #fcfcfc; }
+#serv1 { background: url(../img/n1.png) no-repeat; }
+#serv2 { background: url(../img/n2.png) no-repeat; }
+#serv3 { background: url(../img/n3.png) no-repeat; }
+
+#serv1, #serv2, #serv3 { padding: 5px; margin: 5px; border-radius: 5px; }
