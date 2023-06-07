@@ -1,11 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;400;600&display=swap');
+
 :root {
-    --cor0: #c970a17e;
-    --cor1: #663399;
-    --cor2: #ae407d;
+    --cor0: #06939c;
+    --cor1: #574ea1;
+    --cor2: #0b90c0;
     --cor3: #f99003;
-    --font1: 'Segoe UI', 'Calibri', serif;
+    --cor4: #ae407d;
+    --font1: 'Geologica', sans-serif;
     --font2: 'Montserrat';
 }
 
 * { font-family: var(--font1), sans-serif; }
-body { margin-top: 66px; }
+p { text-align: justify; font-weight: 200; }
+
+/* NavBar */
+nav {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor2));
+}
+
+/* Capa */
+#capa {
+    height: 36vh;
+    background: url(../img/banner.png) center center, #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#capa h1 { font-weight: 200; }
+#capa span { color: var(--cor3); font-weight: 600; }
+
+/* Sobre mim */
+#redes-sociais div { display: flex; justify-content: space-around; }
+#redes-sociais i { font-size: 34px; color: var(--cor0); }
+#redes-sociais i:hover { transition: color ease-out 1s; color: var(--cor3); }
