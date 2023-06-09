@@ -8,8 +8,11 @@
 }
 
 * { font-family: var(--font1), sans-serif; }
+body { background-color: #fcfcfc; }
+.nav-link { color: #fcfcfc;}
 p { text-align: justify; font-weight: 200; }
-hr { width: 80px !important; margin: auto; margin-bottom: 10px;}
+hr { width: 80px !important; margin: auto; margin-bottom: 10px; color: var(--cor2); border-top: 2px solid var(--cor2); opacity: 1;}
+span { color: var(--cor2); font-weight: 600; }
 
 /* NavBar */
 nav {
@@ -18,16 +21,12 @@ nav {
 
 /* Capa */
 #capa {
-    height: 42vh;
+    height: 60vh;
     background: url(../img/banner.png) center center, #000;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
+#texto { display: flex; flex-direction: column; align-items: center; justify-content: center; }
 #capa h1 { font-weight: 200; }
-#capa span { color: var(--cor2); font-weight: 600; }
 
 /* Sobre mim */
 #redes-sociais { width: 70%; margin: auto; display: flex; justify-content: space-around; }
@@ -35,9 +34,16 @@ nav {
 #redes-sociais i:hover { transition: color ease-out 1s; color: var(--cor2); }
 
 /* Serviços */
-#servicos div div { background-color: #fcfcfc; }
+#servicos div div { background-color: #fcfcfc; padding: 5px; margin: 5px; border-radius: 5px; }
+#servicos div div:hover { transition: all ease-in 0.5s; box-shadow: 1px 1px 10px #888888; }
+#servicos div div img {margin: 10px 0 }
 #serv1 { background: url(../img/n1.png) no-repeat; }
 #serv2 { background: url(../img/n2.png) no-repeat; }
 #serv3 { background: url(../img/n3.png) no-repeat; }
+#serv4 { background: url(../img/n4.png) no-repeat; }
+#serv5 { background: url(../img/n5.png) no-repeat; }
+#serv6 { background: url(../img/n6.png) no-repeat; }
 
-#serv1, #serv2, #serv3 { padding: 5px; margin: 5px; border-radius: 5px; }
+@media screen and (max-width: 992px) {
+    #imagem { display: none; }
+}
