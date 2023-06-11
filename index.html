@@ -25,28 +25,36 @@
                 <img src="img/img-rosto.png" alt="Logo" width="40">
                 <img src="img/logo.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav justify-content-end flex-grow-1 me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"> <a class="nav-link" href="#"> Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#sobre"> Sobre mim</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#servicos"> Serviços</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#portfolio"> Portfólio</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#blog"> Blog</a> </li>
-                </ul>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Barra de Navegação</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"> <a class="nav-link" href="#"> Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#sobre"> Sobre mim</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#servicos"> Serviços</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#portfolio"> Portfólio</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#blog"> Blog</a> </li>
+                    </ul>
+                </div>
             </div>
         </div>
       </nav>
     <!-- Capa -->
     <div id="capa" class="row">
         <div class="col-lg-6" id="texto">
-            <h1 class="text-white text-end">Olá, seja bem-vindo ao meu <br> <span>mundo digital!</span></h1>
-            <a href="#" class="btn btn-outline-light">Baixar CV</a>
+            <h1 class="text-white text-center">Seja bem-vindo ao meu <br> <span>mundo digital!</span></h1>
+            <a href="#" class="btn btn-outline-light rounded-pill">Baixar CV</a>
         </div>
         <div class="col-lg-6" id="imagem">
-            <img src="img/foto-sobre.png" alt="" width="350px" class="mx-auto d-block">
+            <img src="img/foto-sobre.png" alt="">
         </div>
     </div>
     <!-- Corpo -->
@@ -54,7 +62,7 @@
 
         <!-- Sobre mim -->
         <section class="py-4" id="sobre" data-bs-spy="scroll">
-            <img src="img/img-rosto.png" class="mx-auto d-block" alt="Foto meio corpo de Ladislau Nunes">
+            <img src="img/img-rosto.png" alt="Foto meio corpo de Ladislau Nunes" class="mx-auto d-block">
             <h2 class="text-center">Sobre <span>mim</span></h2>
             <hr>
             <p>Sou o Ladislau Nunes, um apaixonado por programação com experiência em <strong>desenvolvimento web, web design e </strong>. Aqui, você encontrará uma amostra do meu trabalho, projectos inovadores e soluções criativas que desenvolvi ao longo da minha jornada como programador.</p>
@@ -126,6 +134,37 @@
         <section class="row py-4" id="blog" data-bs-spy="scroll">
             <h2 class="text-center">Meu <span>Blog</span></h2>
             <hr>
+            <small class="text-center mb-1">Os meus últimos artigos</small>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
