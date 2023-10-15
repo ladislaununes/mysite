@@ -8,7 +8,15 @@
 }
 
 * { font-family: var(--font1), sans-serif; }
-body { background-color: #fcfcfc; }
+
+body { 
+    background-color: #fcfcfc; 
+}
+
+section {
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
 .nav-link { color: #fcfcfc;}
 .offcanvas { background-color: var(--cor0); }
 .offcanvas-title { color: #fff; font-weight: 600; }
