@@ -1,6 +1,12 @@
+div div {
+    background-color: aqua;
+    border-right: 1px solid black;
+}
+
 div p {
     text-align: center;
 }
+
 svg {
-    width: 80px;
+    width: 70px;
 }
