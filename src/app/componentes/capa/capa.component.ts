@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './capa.component.html',
-  styleUrl: './capa.component.scss'
+  styleUrl: './capa.component.css'
 })
 export class CapaComponent {
 
